@@ -1,0 +1,225 @@
+html{
+
+}
+body{
+  font-family: "Open Sans";
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng.ng-cloak {
+    display: none;
+}
+.navbar-default {
+ background-color: #fff; 
+ border-color: #fff; 
+}
+.navbar {
+ margin-bottom: 0; 
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+margin-top: 10px;
+}
+.nav>li>a.btn:hover{
+  color: #fff;
+  background-color: #000000;
+  border-color: #398439;
+}
+.modal-content {
+  border-radius: 0;
+}
+
+.table-striped>tbody>tr.change-up>td {
+    color: white;
+    background-color: green;
+    transition: all 1s;
+  -webkit-transition: all 1s ease-in-out;
+}
+.table-striped>tbody>tr.change-up-remove>td{
+    transition: all 1s;
+  -webkit-transition: all 1s ease-in-out;
+}
+.table-striped>tbody>tr.change-up-add,.table-striped>tbody>tr.change-up-remove  {
+  background-color: white;
+  background-color: green;
+  transition: all 1s;
+  -webkit-transition: all 1s ease-in-out;
+}
+.table-striped>tbody>tr.change-up-add-active>td {
+  background-color: green;
+}
+.table-striped>tbody>tr.change-up-remove {
+    background-color: green;
+}
+.table-striped>tbody>tr.change-up-remove-active {
+  background-color: white;
+
+}
+.input-icon.input-icon-right>.search-icon {
+left: auto;
+right: 20px;
+top: 3px;
+}
+.input-icon>.search-icon {
+padding: 0 3px;
+z-index: 2;
+position: absolute;
+top: 1px;
+bottom: 1px;
+left: 3px;
+line-height: 28px;
+display: inline-block;
+color: #909090;
+font-size: 16px;
+}
+.search-icon {
+text-align: center;
+}
+/*Search box style*/
+.nav-search {
+right: 22px;
+line-height: 24px;
+}
+.nav-search .nav-search-input {
+border: 1px solid #6fb3e0;
+width: 152px;
+height: 28px !important;
+padding-top: 2px;
+padding-bottom: 2px;
+border-radius: 4px !important;
+font-size: 13px;
+line-height: 1.3;
+color: #666 !important;
+z-index: 11;
+-webkit-transition: width ease .15s;
+transition: width ease .15s;
+}
+.input-icon>input {
+padding-left: 24px;
+padding-right: 6px;
+}
+button{
+  border-radius: 0 !important;
+}
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"] {
+border-radius: 0 !important;
+color: #858585;
+background-color: #fff;
+border: 1px solid #d5d5d5;
+padding: 5px 8px 6px;
+font-size: 14px;
+font-family: inherit;
+-webkit-box-shadow: none !important;
+box-shadow: none !important;
+-webkit-transition-duration: .1s;
+transition-duration: .1s;
+}
+.input-icon>.search-icon {
+padding: 0 3px;
+z-index: 2;
+position: absolute;
+top: 1px;
+bottom: 1px;
+left: 3px;
+line-height: 28px;
+display: inline-block;
+color: #909090;
+font-size: 16px;
+}
+.nav-search .nav-search-icon {
+color: #6fb3e0 !important;
+font-size: 14px !important;
+line-height: 24px !important;
+background-color: transparent;
+}
+.nav-search .nav-search-icon {
+border: none;
+border-radius: 0;
+padding: 0 3px !important;
+}
+.nav-search .search-icon {
+text-align: center;
+}
+
+.nav-search .input-icon {
+position: relative;
+}
+.nav-search span.input-icon {
+display: inline-block;
+}
+.nav-search .input-icon>input {
+padding-left: 24px;
+padding-right: 6px;
+}
+.sw-search {
+float: right;
+margin-top: -4.5px;
+}
+
+
+.blog-masthead {
+  background-color: #000000;
+  -webkit-box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+          box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+}
+
+/* Nav links */
+.blog-nav-item {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  font-weight: 500;
+  color: #cdddeb;
+}
+.blog-nav-item:hover,
+.blog-nav-item:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Active state gets a caret at the bottom */
+.blog-nav .active {
+  color: #fff;
+}
+.blog-nav .active:after {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-left: -5px;
+  vertical-align: middle;
+  content: " ";
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid;
+  border-left: 5px solid transparent;
+}
+
+
+
+
+.blog-header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.blog-title {
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-weight: normal;
+}
+.blog-description {
+  font-size: 20px;
+  color: #999;
+}
+
+
+
+.blog-post {
+  margin-bottom: 60px;
+}
+.blog-post-title {
+  margin-bottom: 5px;
+  font-size: 36px;
+}
+.blog-post-meta {
+  margin-bottom: 20px;
+  color: #999;
+}

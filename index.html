@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<body ng-cloak="">
+  <title>Admin App</title>
+  <meta name="Description" content="inventory Control System Web Application created with AngularJS and PHP">
+  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+  <link rel="stylesheet" href="css/custom.css" type="text/css" />
+  <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <div class="blog-masthead">
+      <div class="container">
+        <nav class="blog-nav">
+          <a class="blog-nav-item active" href="#">Inventory Control System</a>
+          
+        </nav>
+      </div>
+    </div>
+
+<div class="container">
+    <div class="page-content">
+      <div ng-view="" id="ng-view"></div>
+    </div>
+</div>
+
+<!-- Libraries -->
+<script src="js/angular.min.js"></script>
+<script src="js/ui-bootstrap-tpls-0.11.2.min.js"></script>
+<script src="js/angular-route.min.js"></script>
+<script src="js/angular-animate.min.js"></script>
+
+<!-- AngularJS custom codes -->
+<script src="app/app.js"></script>
+<script src="app/data.js"></script>
+<script src="app/directives.js"></script>
+<script src="app/productsCtrl.js"></script>
+
+<!-- Some Bootstrap Helper Libraries -->
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/underscore.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>
